@@ -1,0 +1,76 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+h1{
+    color: red;
+    display: flex;
+    align-items:last baseline;
+}
+
+h2{
+    display: flex;
+    color:red;
+    margin: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+body{
+background-color:rgb(206, 49, 21);
+}
+
+section{
+    background-color: black;
+    color: red;
+}
+
+.card-header h3{
+    color: red;
+}
+.card-body a{
+    background-color: red;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .section{
+        display: block;
+        width: 100%;
+        position: relative;
+        border: none;
+    }
+        
+        .row{
+            display: block;
+            width: 90%;
+            position: absolute;
+            border: none;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .section{
+        display: block;
+        width: 100%;
+        position: relative;
+        border: none;
+    }
+        
+        .row{
+            display: block;
+            width: 100%;
+            position: relative;
+            border: none;
+        }
+
+}
+
+
+
+    @media screen and (min-width: 1024px){
+
+    }

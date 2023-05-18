@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap cards</title>
+    <link rel="stylesheet" href="/Códigos/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    
+    <Header>
+        <div id="Destaques" class="navbar">
+           <div class="container">
+            <H1>SITE DE CINEMA</H1>
+            <nav>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a  class="nav-link text-danger" href="#Lançamentos">Lançamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link text-danger" href="#">Em alta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link text-danger"href="#Destaques">Destaques</a>
+                    </li>
+                </ul>
+            </nav>
+           </div>
+        </div>
+    </Header>
+    <h2>Destaques</h2>
+    <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="/Imagens/Guardioes da Galaxia.png" alt="Filme Guardioes da Galaxia">
+                <div class="carousel-caption">
+                    <p>Sinopse: em Guardiões da Galáxia Vol. 3, o amado grupo de desajustados busca se estabelecer em Lugar Nenhum, mas não demora muito para que suas vidas sejam reviradas pelos ecos do passado turbulento de Rocket (Bradley Cooper). Ainda se recuperando da perda de Gamora (Zoe Saldana), após os acontecimentos de Vingadores: Guerra Infinita (2018), Peter Quill (Chris Pratt) reúne sua equipe para defender o universo e um companheiro de equipe. Mas esta missão pode significar o fim dos Guardiões como conhecemos, se ela não for bem-sucedida. Encerramento da trilogia iniciada em 2014, sendo a continuação de Guardiões da Galáxia Vol. 2 (2017).</p>
+                </div>
+                </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="/Imagens/Poderoso Chefão.png" alt="Filme O Poderoso Chefão">
+                <div class="carousel-caption">
+                    <p>Sinopse: Don Vito Corleone (Marlon Brando) é o chefe de uma "família" de Nova York que está feliz, pois Connie (Talia Shire), sua filha, se casou com Carlo (Gianni Russo). Porém, durante a festa, Bonasera (Salvatore Corsitto) é visto no escritório de Don Corleone pedindo "justiça", vingança na verdade contra membros de uma quadrilha, que espancaram barbaramente sua filha por ela ter se recusado a fazer sexo para preservar a honra. Vito discute, mas os argumentos de Bonasera o sensibilizam e ele promete que os homens, que maltrataram a filha de Bonasera não serão mortos, pois ela também não foi, mas serão severamente castigados.</p>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="/Imagens/Jhon Wick.png" alt="Filme Jhon Wick">
+                <div class="carousel-caption">
+                    <p>Sinopse: O assassino profissional retorna às telas para John Wick 4: Baba Yaga. O assassino profissional John Wick (Keanu Reeves) agora virou metade do submundo contra ele com sua vingança, que agora está entrando em sua quarta rodada em Nova York, Berlim, Paris e Osaka. Sua equipe, composta por Bowery King (Laurence Fishburne), o gerente do hotel Winston (Ian McShane) e o concierge Charon (Lance Reddick) do lendário hotel assassino Continental, novamente fazem parte da festa.</p>
+                </div>
+            </div>
+                
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="/Imagens/O Brilho eterno de uma mente.png" alt="Filme O brilho eterno de uma mente sem lembranças">
+                <div class="carousel-caption">
+                    <p>Sinopse: Joel (Jim Carrey) e Clementine (Kate Winslet) formavam um casal que durante anos tentaram fazer com que o relacionamento desse certo. Desiludida com o fracasso, Clementine decide esquecer Joel para sempre e, para tanto, aceita se submeter a um tratamento experimental, que retira de sua memória os momentos vividos com ele. Após saber de sua atitude Joel entra em depressão, frustrado por ainda estar apaixonado por alguém que quer esquecê-lo. </p>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <h2>Filmes em cartaz</h2>
+
+    <section id="Lançamentos">
+        <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                            <h3>Homem Formiga 3</h3>
+                            </div>
+                            <img src="/Imagens/Homem Formiga.png" alt="Filme do Homem Formiga">
+                            <div class="card-body">
+                                <p class="card-text">Dr. Hank Pym é o inventor da fórmula/ traje que permite o encolhimento. Anos depois da descoberta, precisa impedir que seu ex-pupilo Darren Cross (Corey Stoll). </p>
+                            <a href="#" class="btn btn-primary">Comprar ingresso</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            <h3>Velozes e Furiosos 10</h3>
+                            </div>
+                        <img src="/Imagens/Velozes e Furiosos.png" alt="Filme Velozes e Furiosos">
+                        <div class="card-body">
+                            <p class="card-text">No décimo filme da série Velozes & Furiosos e último da nova trilogia (Velozes 8, 9 e 10), ao longo de muitas missões e contra probabilidades que pareciam impossíveis.</p>
+                        <a href="#" class="btn btn-primary">Comprar ingresso</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        <h3>Avatar 2</h3>
+                        </div>
+                    <img src="/Imagens/Avatar O caminho da Agua.png" alt="Filme Avatar 2">
+                    <div class="card-body">
+                        <p class="card-text">Sequência do longa de 2009 dirigido por James Cameron, Jake Sully e Ney'tiri devem lutar novamente para salvar o planeta de Pandora de uma ameaça familiar.</p>
+                    <a href="#" class="btn btn-primary">Comprar ingresso</a>
+                    </div>
+                    </div>
+        </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/Códigos/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
+
